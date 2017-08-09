@@ -8,10 +8,12 @@ header {
   background-color: black;
   color: white;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #logo {
-  
+
 }
 
 header, h1 {
@@ -19,8 +21,14 @@ header, h1 {
 }
 
 .nav {
-
+  display: flex;
+  flex-direction: row;
 }
+
+.nav a{
+  padding: 10px;
+}
+
 
 main {
   display: flex;
