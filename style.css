@@ -1,19 +1,49 @@
-html, body {
+body {
   margin: 0;
   font-family: sans-serif;
 }
 
 header {
+  display: flex;
   background-color: black;
   color: white;
+  flex-direction: row;
+}
+
+#logo {
+  
+}
+
+header, h1 {
+
+}
+
+.nav {
+
 }
 
 main {
-  background-color: grey
-  color: black;
+  display: flex;
+  background-color: grey color: black;
+}
+
+.content {
+  flex-direction: column;
+}
+
+.about {
+
+}
+
+.pics {
+  flex-direction: row;
+}
+
+.events {
+  flex-direction: column;
 }
 
 footer {
-background-color: black;
-color: white;
+  background-color: black;
+  color: white;
 }
