@@ -26,13 +26,22 @@ header {
 
 .nav a{
   padding: 10px;
+  color: white;
 }
-
 
 main {
   display: flex;
   background-color: #F6F4BE;
-  /*height: 88vh;*/
+}
+
+.bikesMain {
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+}
+
+.bike-image {
+  border: solid 3px black;
 }
 
 .content {
@@ -51,28 +60,26 @@ main {
 }
 
 .pics {
-  flex-direction: row;
-}
-
-#img1 {
   display: flex;
-  height: 300px;
-  width: 65%;
-  border: solid 3px;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 120px;
+  position: relative;
+  padding: 30px 0px 30px 0px;
+  justify-content: center;
 }
 
-.bike-image {
+.img {
+  background-image: url('./img/berto-macario-67172.jpg');
   display: flex;
-  height: 200px;
-  justify-content: center;
-  justify-content: space-between;
-
+  height: 300px;
+  border: solid 3px;
+  background-size: cover;
+  flex-basis: 65%;
 }
 
 .events {
+  display: flex;
   flex-direction: column;
   border: solid 3px black;
   border-bottom: 0;
